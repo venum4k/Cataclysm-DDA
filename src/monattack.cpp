@@ -2652,7 +2652,7 @@ bool mattack::ranged_pull( monster *z )
     here.creature_on_trap( *target );
     if( seen ) {
         if( z->type->bodytype == "human" || z->type->bodytype == "angel" ) {
-            add_msg( _( "The %1$s's arms fly out and pull and grab %2$s!" ), z->name(),
+            add_msg( _( "The %1$s's arms fly out, grabbing and pulling %2$s!" ), z->name(),
                      target->disp_name() );
         } else {
             add_msg( _( "The %1$s reaches out and pulls %2$s!" ), z->name(),
